@@ -1,0 +1,232 @@
+.body {
+  overflow-x: hidden;
+}
+
+.colorText {
+  color: rgb(160, 149, 149);
+}
+
+.buttonNav {
+  background-color: #FA5959;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.buttonNav:hover {
+  background-color: #FFF;
+  color: #5265E1;
+  border: 1px solid #5265E1;
+}
+
+.buttonPrincipal {
+  background-color: #5265E1;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttonPrincipal:hover {
+  background-color: #FFF;
+  color: #5265E1;
+  border: 1px solid #5265E1;
+}
+
+.linkNavHover {
+  color: #000;
+}
+
+.linkNavHover:hover {
+  color: #FA5959 !important;
+}
+
+.blueStain {
+  background-color: #5265E1;
+  border-radius: 250px 0 0 250px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 700px;
+  width: 100%;
+  height: 65%;
+  transform: translate(160px, 150px);
+}
+
+.blueStain2 {
+  background-color: #5265E1;
+  border-radius: 0px 250px 250px 0px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 65%;
+  transform: translate(-400px, 200px);
+}
+
+.blueStain3 {
+  background-color: #5265E1;
+  border-radius: 0px 250px 250px 0px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 65%;
+  transform: translate(-500px, 200px);
+}
+
+.blueStain4 {
+  background-color: #5265E1;
+  border-radius: 0px 250px 250px 0px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  height: 65%;
+  transform: translate(-500px, 200px);
+}
+
+.nav-tabs .nav-link {
+  position: relative;
+}
+
+.nav-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  visibility: hidden;
+  transition: visibility 0s linear 0.2s;
+}
+
+.nav-tabs .nav-link:hover::after {
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.card1 {
+  margin-right: 10px;
+}
+
+.card2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+.card3 {
+  margin-left: 10px;
+  margin-top: 140px;
+}
+
+.formEmail {
+  background-color: #5265E1;
+  padding: 20px;
+}
+
+.buttonSubmit {
+  background-color: #FA5959;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.buttonSubmit:hover {
+  background-color: #FFF;
+  color: #5265E1;
+  border: 1px solid #5265E1;
+}
+
+.linkHoverPie {
+  color: white;
+}
+
+.linkHoverPie:hover {
+  color: #FA5959 !important;
+}
+
+.fondoPie {
+  background-color: rgb(0, 0, 0);
+}
+
+.iconTw {
+  margin-right: 90px;
+}
+
+.fontSizePie {
+  font-size: 13px;
+}
+
+.iconP {
+  max-width: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.miconFace {
+  margin-left: 65px;
+}
+
+.imgBoksMark {
+  width: 175px;
+  height: 35px;
+}
+
+@media all and (max-width: 1500px) {
+  .blueStain2 {
+    transform: translate(-250px, 200px);
+  }
+  .blueStain3 {
+    transform: translate(-290px, 200px) !important;
+  }
+  .blueStain4 {
+    transform: translate(-320px, 200px) !important;
+  }
+}
+@media all and (max-width: 1300px) {
+  .blueStain2 {
+    transform: translate(-200px, 200px);
+  }
+}
+@media all and (max-width: 1000px) {
+  .blueStain2 {
+    transform: translate(-150px, 150px);
+  }
+  .blueStain3 {
+    transform: translate(-200px, 200px) !important;
+  }
+  .blueStain4 {
+    transform: translate(-180px, 200px) !important;
+  }
+}
+@media all and (max-width: 767px) {
+  .blueStain2 {
+    transform: translate(-300px, 170px);
+  }
+  .blueStain3 {
+    transform: translate(-300px, 200px) !important;
+  }
+  .blueStain4 {
+    transform: translate(-340px, 200px) !important;
+  }
+}
+@media all and (max-width: 575px) {
+  .blueStain2 {
+    transform: translate(-150px, 170px);
+  }
+  .blueStain3 {
+    transform: translate(-200px, 200px) !important;
+  }
+  .blueStain4 {
+    transform: translate(-180px, 200px) !important;
+  }
+}/*# sourceMappingURL=main.css.map */
